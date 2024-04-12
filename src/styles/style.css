@@ -1,0 +1,71 @@
+.main {
+  display: flex !important;
+  align-items: center !important;
+  /* justify-content: c !important; */
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+  color: gray !important;
+}
+
+.ant-card-actions {
+  background-color: #f6f6f6 !important;
+}
+
+.ant-card-cover {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #f6f6f6 !important;
+}
+
+.ant-avatar {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.ant-list-item {
+  border-block-end: none !important;
+  padding: 5px 0 !important;
+}
+
+.ant-input-number-handler-wrap {
+  display: none !important;
+}
+
+.ant-input-number {
+  width: 100% !important;
+}
+
+.ant-divider-horizontal{
+  margin: 10px 0!important;
+}
+
+@media (max-width: 541px) {
+  .main {
+    margin-left: 0px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 542px) and (max-width: 770px) {
+  .main {
+    margin-left: 50px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 736px) and (max-width: 1025px) {
+  .main {
+    margin-left: 30px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+  .main {
+    margin-left: 60px;
+    justify-content: flex-start;
+  }
+}
