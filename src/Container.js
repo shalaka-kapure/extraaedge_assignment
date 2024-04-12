@@ -11,7 +11,8 @@ function Container() {
 
   useEffect(() => {
     dispatch(fetchUsers());
-  }, []);
+  }, [dispatch]);
+  
   console.log("data", data);
   return (
     <>

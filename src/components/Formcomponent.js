@@ -10,10 +10,12 @@ const layout = {
   },
 };
 
+const label = "Field"; 
+
 const validateMessages = {
-  required: "${label} is required!",
+  required: `${label} is required!`,
   types: {
-    email: "${label} is not a valid email!",
+    email: `${label} is not a valid email!`,
   },
 };
 
